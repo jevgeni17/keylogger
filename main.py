@@ -7,7 +7,7 @@ import os
 from time import strftime,gmtime
 import datetime
 
-#mouse=Controller()
+#mouse=Controller())
 def on_press(key):
     print(datetime.datetime.now().strftime("%H:%M:%S"))
     try:
